@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Sogopro - Personal Media Downloader",
+  "short_name": "Sogopro",
+  "description": "Download personal media and videos from YouTube, Instagram, TikTok, Twitter/X, Facebook, and more in HD.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#030712",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["utilities", "multimedia", "productivity"]
+}

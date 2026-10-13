@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect x="5" y="5" width="90" height="90" rx="24" fill="#090d16" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Lightning bolt + Downward Download Arrow Hybrid -->
+  <g filter="url(#glow)">
+    <!-- Lightning top segment -->
+    <path d="M 54 18 L 32 46 L 47 46 L 36 68 L 68 38 L 52 38 Z" fill="url(#sogoGrad)" />
+    <!-- Downward Arrow stem & head integrated -->
+    <path d="M 50 48 L 50 78 M 38 68 L 50 80 L 62 68" stroke="url(#sogoGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>

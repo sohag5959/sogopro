@@ -1,0 +1,6 @@
+{
+  "name": "Sogopro",
+  "description": "Download personal media and videos from YouTube, Instagram, TikTok, Twitter/X, Facebook, and more in stunning 4K, 1080p Full HD, or MP3 audio. Fast, free, and secure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
